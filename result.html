@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let physics = parseFloat(prompt("Enter Your Physics Mark :"))
+        console.log("Physics", physics);
+
+        let chemistry = parseFloat(prompt("Enter Your Chemistry Mark :"))
+        console.log("Chemistry", chemistry);
+
+        let biology = parseFloat(prompt("Enter Your Biology Mark :"))
+        console.log("Biology", biology);
+
+        let mathematics = parseFloat(prompt("Enter Your Mathematics Mark :"))
+        console.log("Mathematics", mathematics);
+
+        let computer = parseFloat(prompt("Enter Your Computer Mark :"))
+        console.log("Computer", computer);
+
+        let total = physics + chemistry + biology + mathematics + computer;
+        console.log("Hear is all subjects marks total is = ", total);
+
+        let percentage = total * 100 / 500
+        console.log("Hear is all subjects Percentage is = ", percentage);
+
+        if (percentage >= 90) 
+        {
+            console.log("Congratulations! You Have Achive Grade A");
+        }
+         else if (percentage >= 80) 
+        {
+            console.log("Congratulations! You Have Achive Grade B");
+        } 
+        else if (percentage >= 70)
+         {
+            console.log("Good luck! You Have Achive Grade C");
+        } 
+        else if (percentage >= 60) 
+        {
+            console.log("Nice! You Have Achive Grade D");
+        }
+         else if (percentage >= 50) 
+        {
+            console.log("You Have Achive Grade E");
+        } else 
+        {
+            console.log("You Have Achive Grade F ");
+        }
+
+    </script>
+</body>
+
+</html>

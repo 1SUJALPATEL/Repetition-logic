@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("+ for Plus");
+        console.log("- for Mines");
+        console.log("* for Multi");
+        console.log("/ for Divison")
+
+        let number= parseInt(prompt("Enter Any Number"))
+        console.log("This Is Your First Entered Number =",number);
+
+        let number1= parseInt(prompt("Enter Any Number"))
+        console.log("This Is Your Secound Entered Number =",number1);
+        
+        let calculator= parseInt(prompt("Hear Is + || - || * || / Are Avilable"))
+        console.log("Your Choice",calculator);
+        switch (calculator) {
+            case '+':
+                console.log("It's Your Ans =",number+number1);
+                break;
+            case '-':
+                console.log("It's Your Ans.",number-number1);
+                break;
+            case '*':
+                console.log("It's Your Ans.",number*number1);
+                break;
+            case '/':
+                console.log("It's Your Ans.",number/number1);
+                break;
+            default:
+                console.log("Invalid Number");
+                break;
+        }
+    </script>
+</body>
+</html>

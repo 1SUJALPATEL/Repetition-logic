@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("m for Monday");
+        console.log("t for Tuesday");
+        console.log("w for Wednesday");
+        console.log("th for Thursday");
+        console.log("f for Friday");
+        console.log("s for Saturday");
+        console.log("su for Sunday");
+
+        let week = parseInt(prompt("Enter The First Latter Of Week Name"));
+        console.log("Your Latter",week);
+        
+        if (week = 'm' || week == 'M') {
+            console.log("Its Monday");
+        }else if (week = 'T' || week == 't') {
+            console.log("Its Tuesday");
+        }else if (week = 'W' || week == 'w') {
+            console.log("Its Wednesday");
+        }else if (week = 'TH' || week == 'Th' || week == 'th' || week == 'tH') {
+            console.log("Its Thursday");
+        }else if (week = 'F' || week == 'f') {
+            console.log("Its Friday");
+        }else if (week = 's' || week == 'S') {
+            console.log("Its Saturday");
+        }else if (week = 'SU' || week == 'sU' || week == 'Su' || week == 'su') {
+            console.log("Its Sunday");
+        }
+    </script>
+</body>
+</html>
